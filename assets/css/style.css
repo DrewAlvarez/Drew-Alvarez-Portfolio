@@ -1,0 +1,78 @@
+body{
+    background-image: url("../img/mainBg2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 400%;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+main{
+    margin: 5%;
+}
+
+.carouselEl{
+    float: left;
+    width: 900px;
+    margin-left: 5%;
+}
+.card{
+    width: 18rem;
+    float: left;
+    height: 600px;
+}
+.btn-color{
+    background-color: black;
+    color: white;
+    margin-bottom: .5rem;
+    width: 12rem;
+}
+.carousel-inner{
+    border-radius: 3px;
+}
+
+.carousel-item{
+    width: 900px;
+    height: 600px;
+}
+
+.carouselImg{
+    max-width: 100%;
+    max-height: auto;
+    vertical-align: middle;
+}
+
+#modalImg{
+    width: 450px;
+}
+.modal-header,
+.modal-footer{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        text-align: center;
+    }
+    main{
+        margin: 1rem auto;
+        width: 100%;
+        text-align: center;
+
+    }
+    .card{
+        float: none;
+        margin: auto;
+    }
+
+    .carouselEl,
+    .carousel-item{
+        width: 18rem;
+    }
+
+    .carouselEl{
+        float: none;
+        margin: 1rem auto;
+    }
+}
