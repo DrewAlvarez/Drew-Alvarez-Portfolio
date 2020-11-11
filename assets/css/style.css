@@ -91,7 +91,40 @@ main.container{
     height: 500px;
     margin: 1rem;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1500px){
+    .carouselEl{
+        width: 750px;
+    }
+}
+@media screen and (max-width: 1312px){
+    .carouselEl{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 992px) {
+    body{
+        text-align: center;
+    }
+    main{
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+
+    }
+    .carousel-item{
+        height: 620px;
+    }
+
+    .carouselEl{
+        width: 18rem;
+    }
+    .carouselImg{
+        max-width: auto;
+        max-height: 100%;
+        margin-left: -32%;
+    }
+}
+@media screen and (max-width: 688px) {
     body{
         text-align: center;
     }
@@ -99,6 +132,7 @@ main.container{
         margin: 1rem auto;
         width: 100%;
         text-align: center;
+        display: inline-block;
 
     }
     .card{
@@ -106,14 +140,20 @@ main.container{
         margin: auto;
     }
 
-    .carouselEl,
     .carousel-item{
-        width: 18rem;
+        height: 620px;
     }
 
     .carouselEl{
         float: none;
+        width: 18rem;
         margin: 1rem auto;
     }
+    .carouselImg{
+        max-width: auto;
+        max-height: 100%;
+        margin-left: -32%;
+    }
 }
+
 

@@ -12,6 +12,18 @@ let portfolioArr = [
         appRepo: "https://github.com/Feda2020/Project2"
     },
     {
+        appName: "Eat Da Burger",
+        imgName: "burgerSS",
+        appUrl: "https://alvburger.herokuapp.com/",
+        appRepo: "https://github.com/DrewAlvarez/HW-13-Burger"
+    },
+    {
+        appName: "Express Note Taker",
+        imgName: "expNote",
+        appUrl: "https://drewbcnotetaker.herokuapp.com/",
+        appRepo: "https://github.com/DrewAlvarez/HW-11-Express-Note-Taker"
+    },
+    {
         appName: "Weather Dashboard",
         imgName: "weatherDashboard",
         appUrl: "https://drewalvarez.github.io/HW-6-Weather-Dashboard/",

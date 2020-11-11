@@ -33,6 +33,7 @@ for(var i = 0; i < portArr.length; i++){
     
     carouselImage.attr("src", "assets/img/"+ portArr[i].imgName + ".png");
     carouselImage.attr("class", "d-block w-100 carouselImg")
+    carouselImage.attr("title", portArr[i].appName)
     carouselItem.append(carouselImage)
     carousel.append(carouselItem)
     let title = portArr[i].appName
