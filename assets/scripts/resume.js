@@ -5,5 +5,10 @@ $(document).ready(function(){
     })
     $(".eduBtn").click(function(){
         $(".workHist").hide();
+        $(".education").removeAttr("hidden");
+    })
+    $(".refBtn").click(function(){
+        $(".education").hide();
+        $(".references").removeAttr("hidden");
     })
 })
